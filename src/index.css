@@ -1,0 +1,188 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+li{
+  list-style: none!important;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+/*NAVEGACIÓN*/
+.header{
+  width: 100%;
+  height: auto;
+}
+.header-responsive{
+  width: 100%;
+  border-bottom: 1px solid rgb(233 233 233);
+  padding: 15px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-responsive img{
+  width: 90px;
+}
+.header-hamburger{
+  position: relative;
+  width: 22px;
+  height: 2px;
+  background-color: #89878c;
+}
+.header-hamburger::before,.header-hamburger::after{
+  position: absolute;
+  content: '';
+  width: 22px;
+    height: 2px;
+  left: 0;
+  background-color: #89878c;
+}
+.header-hamburger::before{
+  top: -5.8px;
+}
+.header-hamburger::after{
+  bottom: -5.8px;
+}
+/*FOOTER*/
+footer{
+  background: #343434 none repeat center top;
+  padding: 0 10px;
+  padding-top: 50px;
+  padding-bottom: 15px;
+}
+.footer-logo{
+  width: 110px;
+}
+.footer-info{
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  
+}
+.footer-info p{
+  font-size: 20px;
+  color: white;
+  font-weight: bold;
+}
+.footer-info a{
+  font-size: 14px;
+  color: #aeadb3;
+  text-decoration: none !important;
+}
+.footer-info ul{
+  padding: 0;
+}
+.footer-info ul li {
+  position: relative;
+  padding-left: 16px;
+  font-size: 14px;
+  color: #aeadb3;
+}
+.footer-info ul li:before {
+  content: "\f0da";
+  position: absolute;
+  font-size: 16px;
+  font-family: 'fontawesome';
+  left: 0px;
+}
+.dr{
+  margin: 0px 15px;
+  border-top: 1px solid rgb(233 233 233);
+}
+.dr p{
+  font-size: 12px;
+  margin-top: 14px;
+  margin-bottom: 0px;
+}
+/*app - INICIO*/
+.top{
+  width: 100%;
+  height: auto;
+  padding: 40px 10px;
+}
+.top-titulo{
+  font-size: 26px;
+  color: #f7b83d;
+}
+.top-info{
+  font-size: 16px;
+  text-align: justify;
+  word-spacing: normal;
+  color: #9b9b9a;
+}
+.top-button{
+  width: 150px;
+  background: #434041;
+  border: none;
+  margin: 18px 0px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  color: white;
+}
+/*INICIO - CONOCENOS*/
+.conocenos{
+  width: 100%;
+  height: auto;
+  padding: 40px 10px;
+  background-color: #edeff1;
+}
+.conocemos-container{
+  padding: 0px 50px;
+}
+.conocenos-titulo{
+  font-size: 32px;
+  line-height: 1.2;
+  color: black;
+}
+.conocenos-info{
+  font-size: 16px;
+  text-align: justify;
+  word-spacing: normal;
+  color: #9b9b9a;
+}
+.conocenos-card{
+  width: 100%;
+  padding: 40px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 15px 0px;
+  box-shadow: 0px 0px 2px #0000003d;
+  border-radius: 10px;
+}
+.conocenos-card-title{
+  font-size: 24px;
+  text-align: center;
+  font-weight: bold;
+  text-transform: capitalize;
+  margin-top: 20px;
+}
+.conocenos-card-info{
+  font-size: 16px;
+  text-align: justify;
+  color: #9b9b9a;
+}
+@media (min-width:775px){
+  .conocenos-card {
+    height: 100%; 
+  }
+}
+@media (min-width:991px) {
+  .conocenos{
+    padding: 80px 10px;
+  }
+  .conocenos-card{
+    width: 70%;
+    margin-top: 30px;
+  }
+  .top-titulo {
+    font-size: 36px;
+  }
+}
