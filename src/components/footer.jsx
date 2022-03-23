@@ -10,7 +10,7 @@ function Footer() {
                         <div className="footer-info">
                             <p>Mapa del sitio</p>
                             <a href="">Inicio</a>
-                            <a href="">Nosotros</a>
+                            <a href="/nosotros">Nosotros</a>
                             <a href="">Servicios</a>
                             <a href="">Contáctenos</a>
                             <a href="">Clientes</a>
