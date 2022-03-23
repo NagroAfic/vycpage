@@ -126,6 +126,9 @@ footer{
   padding-bottom: 15px;
   color: white;
 }
+.top-image{
+  width: 550px;
+}
 /*INICIO - CONOCENOS*/
 .conocenos{
   width: 100%;

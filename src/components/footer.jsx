@@ -6,7 +6,7 @@ function Footer() {
                     <div className="col-12 col-md-4 mb-4">
                         <img src="/src/images/logo_recusa_web.png" width="100%" alt="" className="footer-logo"/>
                     </div>
-                    <div className="col-12 col-md-4 mb-4">
+                    <div className="col-12 col-md-4 mb-4 ">
                         <div className="footer-info">
                             <p>Mapa del sitio</p>
                             <a href="">Inicio</a>
