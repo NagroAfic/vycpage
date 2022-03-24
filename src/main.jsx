@@ -14,7 +14,7 @@ ReactDOM.render(
   <BrowserRouter>
     <Header/>
       <Routes>
-        <Route path="/" element={<App />} />
+        <Route path="/inicio" element={<App />} />
         <Route path="/nosotros" element={<Nosotros />} />
       </Routes>
     <Footer/>
