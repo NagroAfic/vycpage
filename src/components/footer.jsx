@@ -1,10 +1,12 @@
+
+import Logo from '/src/images/logo_recusa_web.png'
 function Footer() {
     return(
         <footer>
             <div className="container">
                 <div className="row">
                     <div className="col-12 col-md-4 mb-4">
-                        <img src="/src/images/logo_recusa_web.png" width="100%" alt="" className="footer-logo"/>
+                        <img src={Logo} width="100%" alt="" className="footer-logo"/>
                     </div>
                     <div className="col-12 col-md-4 mb-4 ">
                         <div className="footer-info">

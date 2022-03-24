@@ -1,3 +1,6 @@
+import TopImg from '/src/images/inicio/9910.jpg'
+import Icono_1 from '/src/images/inicio/icono-1.png'
+import Icono_2 from '/src/images/inicio/icono-2.png'
 function App() {
   return (
     <main className="App">
@@ -13,7 +16,7 @@ function App() {
             </div>
             <div className="col-12 col-md-6">
               <div className="top-image">
-                <img src="/src/images/inicio/9910.jpg" width="100%" alt="" />
+                <img src={TopImg} width="100%" alt="" />
               </div>
             </div>
           </div>
@@ -30,7 +33,7 @@ function App() {
             </div>
             <div className="col-12 col-md-6 d-flex justify-content-lg-center">
               <div className="conocenos-card">
-                <img src="/src/images/inicio/icono-1.png" alt="" />
+                <img src={Icono_1} alt="" />
                 <p className="conocenos-card-title">Nuestros servicios</p>
                 <p className="conocenos-card-info">Son realizados por personal altamente calificado que asegura el desempeño esperado y con los resultados propuestos. 
                   Todo nuestro personal tiene conocimiento en manejo de armas y las diferentes artes de defensa personal. Capacitados de 
@@ -39,7 +42,7 @@ function App() {
             </div>
             <div className="col-12 col-md-6 d-flex justify-content-lg-center">
               <div className="conocenos-card">
-                <img src="/src/images/inicio/icono-2.png" alt="" />
+                <img src={Icono_2} alt="" />
                 <p className="conocenos-card-title">Nuestras Consultorías</p>
                 <p className="conocenos-card-info">Contamos con especialistas en los diferentes niveles de seguridad que podrán capacitar a su personal de seguridad in 
                   house. Para esto ofrecemos: charlas, talleres, capacitaciones continuas, etc.</p>
